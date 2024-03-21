@@ -1,6 +1,6 @@
 Tabella: libri
 
-id: SMALLINT PK
+id: SMALLINT, PK
 autore: VARCHAR(255), NULL
 genere: VARCHAR(50), NOT NULL
 titolo: VARCHAR(255), NOT NULL
@@ -11,6 +11,7 @@ prezzo: FLOAT(5, 2), NULL
 descrizione: TEXT, NULL
 lingua: VAR(2), NOT NULL
 in_presito: TINYINT, NOT NULL
+ibss: VARCHAR(18), UNIQUE, NULL
 
 
 
