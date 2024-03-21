@@ -11,7 +11,7 @@ prezzo: FLOAT(5, 2), NULL
 descrizione: TEXT, NULL
 lingua: VAR(2), NOT NULL
 in_presito: TINYINT, NOT NULL
-ibss: VARCHAR(18), UNIQUE, NULL
+isbn: VARCHAR(18), UNIQUE, NULL
 
 
 
